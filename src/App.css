@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Sans";
+  src: url("../public/Sans\ a4fran3.ttf");
+}
+
+@font-face {
+  font-family: "Kalameh";
+  src: url("../public/Kalameh-Bold.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  border: none;
+  outline: none;
+  font-family: Sans;
+  background-color: var(--color-white);
+}
+
+:root {
+  --color-red: #df2020;
+  --color-blue-variant: #212245;
+  --color-red-light : #fde4e4;
+  --color-white : #fcfcfc;
+
+  --transition: all 400ms ease;
+
+  --width-lg: 75%;
+  --width-md: 86%;
+  --width-sm: 90%;
+}
+
+.container {
+  width: var(--width-lg);
+  margin: auto;
+}
+
+.btn {
+  width: 6rem;
+  height: 2.5rem;
+  display: inline-block;
+  color: var(--color-red) !important;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 2px solid var(--color-red) !important;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background: var(--color-white) !important;
+  color: var(--color-red) !important;
+  border-color: transparent !important;
+}
+
+.btn-red {
+  background: var(--color-red) !important;
+  color: var(--color-white) !important;
+}
+
+/* ====================== MEDIA QUERIS ( MD ) ======================= */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--width-md);
+  }
+}
+
+/* ====================== MEDIA QUERIS ( SM ) ======================= */
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--width-sm);
+  }
+}

@@ -1,0 +1,60 @@
+.tasty-treat__container {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+}
+
+.tasty-treat--left img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.tasty-treat--right {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.tasty-treat--right > h2 {
+    font-family: kalameh;
+    color: var(--color-blue-variant);
+    font-size: 2.2rem;
+}
+
+.tasty-treat--right > h2 span {
+    color: var(--color-red);
+}
+
+.tasty-treat--right > p {
+    opacity: .8;
+}
+
+.tasty-treat--right li div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.tasty-treat--right li div svg {
+    color: var(--color-red);
+    font-size: 1.3rem;
+}
+
+.tasty-treat--right li div h5 {
+    color: var(--color-blue-variant);
+    font-family: kalameh;
+}
+
+.tasty-treat--right li p {
+    opacity: .8;
+}
+
+@media screen and (max-width : 1024px) {
+    .tasty-treat__container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+}

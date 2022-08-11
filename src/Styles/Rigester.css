@@ -1,0 +1,26 @@
+.rigester {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("../../public/images/loggin-bg2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.regex {
+    color: var(--color-red);
+    font-family: kalameh;
+    margin-bottom: .5rem;
+}
+
+.regex--off {
+    display: none;
+}
+
+@media screen and (max-width : 600px) {
+    .regex {
+        font-size: .8rem;
+    }
+}

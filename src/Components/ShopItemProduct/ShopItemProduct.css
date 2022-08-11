@@ -1,0 +1,100 @@
+.shop-item-product {
+    background-color: transparent !important;
+    color: var(--color-blue-variant) !important;
+    position: absolute;
+    top: 2rem;
+    left: .5rem;
+}
+
+.shop-item-product-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent !important;
+    margin-top: 2rem;
+}
+
+.shop-item-product-box--left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: transparent;
+}
+
+.shop-item-product-box--left img {
+    width: 25%;
+    object-fit: cover;
+    background: transparent;
+}
+
+.shop-item-product-box--left-nth2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 1rem;
+    background-color: transparent;
+}
+
+.shop-item-product-box--left-nth2 h5 {
+    color: var(--color-blue-variant);
+    font-family: kalameh;
+    background-color: transparent;
+}
+
+.shop-item-product-box--left-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+}
+
+.shop-item-product-box--left-price small {
+    color: var(--color-blue-variant);
+    font-family: kalameh;
+    font-size: 1.1rem;
+    opacity: .8;
+    background-color: transparent;
+}
+
+.shop-item-product-box--left-price p {
+    color: var(--color-red);
+    font-family: kalameh;
+    font-size: 1.1rem;
+    background-color: transparent;
+}
+
+.shop-item-product-box--left-number {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: var(--color-red-light);
+}
+
+.shop-item-product-box--left-number svg {
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: kalameh;
+    background-color: transparent;
+}
+
+.shop-item-product-box--left-number span {
+    color: var(--color-blue-variant);
+    font-family: kalameh;
+    font-size: 1.1rem;
+    background-color: transparent;
+}
+
+.shop-item-product-box--right {
+    background-color: transparent;
+    margin-right: .5rem;
+}
+
+.shop-item-product-box--right svg {
+    background-color: transparent;
+    font-size: 1.3rem;
+    cursor: pointer;
+    font-family: kalameh;
+}

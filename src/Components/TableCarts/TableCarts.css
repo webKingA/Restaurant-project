@@ -1,0 +1,44 @@
+.table__total-price {
+    margin-top: 3rem;
+}
+
+.table__total-price h4 {
+    font-family: kalameh;
+    color: var(--color-blue-variant);
+}
+
+.table__total-price h4 span {
+    color: var(--color-red);
+}
+
+.table__total-price p {
+    color: var(--color-blue-variant);
+    opacity: .9;
+    font-family: kalameh;
+}
+
+.table__btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.table__btns a {
+    color: #fff;
+    background-color: var(--color-red);
+    padding: .6rem 1.2rem;
+    border-radius: .6rem;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.table__btns a:hover {
+    transform: scale(1.10);
+}
+
+@media screen and (max-width : 600px) {
+    .table__btns a {
+        font-size: .8rem;
+    }
+}

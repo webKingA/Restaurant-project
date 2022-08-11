@@ -1,0 +1,56 @@
+.serve-home {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.serve-home > h3 {
+    color: var(--color-red);
+    font-size: 1.5rem;
+    font-family: kalameh;
+}
+
+.serve-home > h2 {
+    width: 20rem;
+    color: var(--color-blue-variant);
+    margin: auto;
+    font-size: 2rem;
+    font-family: kalameh;
+}
+
+.serve-home > h2 span {
+    color: var(--color-red);
+}
+
+.serve-home > p {
+    opacity: .8;
+    font-family: kalameh;
+    margin-top: .5rem;
+}
+
+.serve-home--box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(250px , 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.serve-home--box img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.serve-home--box h2 {
+    font-family: kalameh;
+    color: var(--color-blue-variant);
+    font-size: 1.4rem;
+}
+
+.serve-home--box small {
+    opacity: .8;
+}
+
+@media screen and (max-width : 600px) {
+    .serve-home > h3 , .serve-home > h2 {
+        font-size: 1.3rem;
+    }
+}

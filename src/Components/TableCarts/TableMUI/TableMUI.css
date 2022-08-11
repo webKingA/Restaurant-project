@@ -1,0 +1,56 @@
+.container__table {
+    margin-top: 4rem;
+    width: 100%;
+}
+
+table, th, td {
+  border:1px solid black;
+}
+
+th {
+    padding: .5rem;
+}
+
+td {
+    text-align: center;
+}
+
+.td__img {
+    width: 15%;
+}
+
+td img {
+    width: 75%;
+    object-fit: cover;
+}
+
+.td__svg {
+    width: 10%;
+}
+
+.td__svg svg {
+    width: 100%;
+    cursor: pointer;
+    color: var(--color-red);
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width : 1024px) {
+    td img {
+        width: 50%;
+    }
+}   
+
+@media screen and (max-width : 600px) {
+    .td__svg svg {
+        font-size: 1.1rem;
+    }
+
+    th {
+        font-size: .7rem;
+    }
+
+    tr {
+        font-size: .7rem;
+    }
+}
